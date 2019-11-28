@@ -1,0 +1,266 @@
+header
+{
+	display:flex;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	height: 150px;
+	align-items:center;
+
+}
+
+
+
+body
+{
+	font-size:100%;
+	margin:0;
+}
+
+
+
+#conteneur
+{
+	display:flex;
+
+}
+
+span
+{
+	font-weight: bold;
+	
+}
+
+hr
+{
+	display:none;
+}
+
+img
+{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+}
+
+
+#photo
+{
+
+	padding-top: 150px;
+	height: 300px;
+	text-align:center;
+	background-color:#ff6f00;
+	width: 20%;
+}
+
+#identite
+{
+	padding-left: 100px;
+}
+
+.prenom
+{
+	color:#ff6f00;
+	font-weight: bold;
+	font-size:2em;
+}
+
+.nom
+{
+	font-weight: bold;
+	font-size:2em
+}
+
+.metier
+{
+	font-size: 1.3em;
+		
+}
+
+
+#colonnegauche
+{
+	background-color:#ff6f00;
+	width: 20%;
+	position: relative;
+}
+
+.titrecolonnegauche
+{
+	 background-color:black;
+	 color:red;
+	 text-align: center
+}
+
+.elementcontact
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+
+}
+
+.elementaproposdemoi
+{
+	
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+}
+
+#loisirs
+{
+	margin:absolute;
+}
+
+.elementloisirs
+{
+
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+#colonnedroite
+{
+	width: 80%;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+.titrecolonnedroite
+{
+	margin-left: 30px;
+	border-bottom: 2px solid #ff6f00;
+	text-decoration-color: #ff6f00;
+}
+
+
+.fa-graduation-cap
+{
+	color:#ff6f00;
+	margin-right: 50px;
+
+}
+
+.fa-briefcase
+{
+	color:#ff6f00;
+	margin-right: 50px;
+	
+}
+
+.fa-pen
+{
+	color:#ff6f00;
+	margin-right: 50px;
+	
+}
+
+
+.entree i
+{
+	margin-right: 50px;
+}
+
+.entree
+{
+	display:flex;
+	width:100%;
+	padding-left: 80px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+
+.elementgauche
+{
+	display:flex;
+	width: 25%;
+}
+
+
+.elementdroite
+
+{
+	width: 75%;
+	padding-right: 80px;
+}
+
+#elementrecommandations
+
+{	
+	padding-top: 50px;
+}
+
+.elementdroiterecommandations
+{
+	margin-right: 100px;
+}
+
+.entree
+
+{	display:flex;
+	justify-content: space-between;
+}
+
+@media all and (max-width: 1024px)
+{
+   header,#colonnegauche,#colonnedroite 
+    {
+        flex-direction: column;
+        width: 100%;
+	}
+
+	header
+	{
+		height: auto;
+		width: 100%;
+	}
+
+	#photo
+	{
+
+		width: 100%;
+		
+	}
+
+	#identite
+	{
+		width: 100%;
+	}
+
+	#conteneur
+	{
+		flex-direction: column;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+}
+
+
+
+}
+
+
+#colonnegauche,#colonnedroite
+{
+	position: relative;
+}
+
+
+
+
+
+
+
