@@ -6,6 +6,7 @@ header
 	height: 150px;
 	align-items:center;
 
+
 }
 
 
@@ -13,7 +14,9 @@ header
 body
 {
 	font-size:100%;
-	margin:0;
+	margin:0px;
+	min-width: 100vh;
+
 }
 
 
@@ -45,7 +48,6 @@ img
 
 #photo
 {
-
 	padding-top: 150px;
 	height: 300px;
 	text-align:center;
@@ -56,6 +58,8 @@ img
 #identite
 {
 	padding-left: 100px;
+	
+	
 }
 
 .prenom
@@ -63,17 +67,21 @@ img
 	color:#ff6f00;
 	font-weight: bold;
 	font-size:2em;
+	
+
 }
 
 .nom
 {
 	font-weight: bold;
-	font-size:2em
+	font-size:2em;
+	text-align:center;
 }
 
 .metier
 {
 	font-size: 1.3em;
+	text-align: center;
 		
 }
 
@@ -108,10 +116,7 @@ img
 	text-align: justify;
 }
 
-#loisirs
-{
-	margin:absolute;
-}
+
 
 .elementloisirs
 {
@@ -205,58 +210,87 @@ img
 	justify-content: space-between;
 }
 
+@media all and (min-width: 1024px)
+{
+
+
+#loisirs
+{
+
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+}
+
 @media all and (max-width: 1024px)
 {
    header,#colonnegauche,#colonnedroite 
     {
+    	
         flex-direction: column;
         width: 100%;
+        
 	}
 
 	header
 	{
 		height: auto;
 		width: 100%;
+		padding: 0px;
 	}
 
 	#photo
 	{
-
-		width: 100%;
+	width: 100%;
+	padding-top: 10px;
+    height: 175px;
+    text-align: center;
+    background-color: #ff6f00;
 		
 	}
 
 	#identite
 	{
 		width: 100%;
+		padding: 0px;
+		text-align: center;
 	}
 
 	#conteneur
 	{
-		flex-direction: column;
+	flex-direction: column;
+
 	}
 
-	
+#colonnedroite
+	{
+	padding-left: 10px;
+	padding-right: 0px;
+	}
 
+#recommandations .entree
 
-
-
-
-
-
-
-
+{
+	justify-content: space-around;
 }
 
+	.entree
+	{
+padding-left: 0px;}
+
+.elementdroite
+{margin-left: 20px;}
 
 
-}
-
-
-#colonnegauche,#colonnedroite
+#colonnegauche
 {
 	position: relative;
 }
+
+}
+
+
 
 
 
